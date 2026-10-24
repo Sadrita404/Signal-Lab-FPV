@@ -13,13 +13,6 @@ Signallab58 models the whole path, stage by stage:
 5. Sync recovery (horizontal and vertical, with the tearing and rolling that goes with it)
 6. MP4 export through FFmpeg
 
-## About this project
-
-- It was vibecoded with Claude. Expect it to behave like a project built that way.
-- I use it to test and train my other project, DVR Doctor, which cleans up exactly this kind of look.
-- It looks really cool, so I'm releasing it for free for anyone who wants to have fun with it.
-- It was tuned against Skyzone Cobra X V4 goggle footage. Other goggles will look different, and the defaults will not match them.
-- There are rough edges. Issues and pull requests are welcome.
 
 ## What is in the box
 
@@ -88,7 +81,3 @@ Issues and pull requests are welcome, especially footage comparisons from other 
 ## License
 
 MIT. See Licence.
-
----
-
-Tell me which license you want and I'll fill it in.
