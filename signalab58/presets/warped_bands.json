@@ -1,0 +1,18 @@
+{
+  "link_cnr_db": 23.0,
+  "fade_enable": true,
+  "fade_k_db": 15.0,
+  "fade_rate_hz": 2.0,
+  "mp_enable": true,
+  "mp_paths": 3,
+  "mp_delay_ns": 130.0,
+  "mp_level_db": -2.0,
+  "mp_doppler_hz": 40.0,
+  "dip_enable": true,
+  "dip_rate_hz": 2.5,
+  "dip_approach_lines": 30.0,
+  "dip_static_lines": 3.0,
+  "dip_direct_db": 6.0,
+  "dip_static_db": 22.0,
+  "rx_clip_high_ire": 118.0
+}

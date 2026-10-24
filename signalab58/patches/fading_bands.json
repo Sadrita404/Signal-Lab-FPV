@@ -1,0 +1,112 @@
+{
+ "fs": 14318181.818,
+ "spl": 910,
+ "seed": 0,
+ "sources": [
+  {
+   "freq_hz": 2000.0,
+   "amp": 1.0,
+   "offset": 0.0,
+   "phase_x": 0.0,
+   "phase_y": 0.0,
+   "duty": 0.5,
+   "smooth": 0.0,
+   "name": "spacing jitter",
+   "enabled": true,
+   "wave": "random",
+   "to_mix": false,
+   "fade": "",
+   "seed_salt": 0
+  },
+  {
+   "freq_hz": 2500.0,
+   "amp": 1.0,
+   "offset": 0.0,
+   "phase_x": 0.0,
+   "phase_y": 0.0,
+   "duty": 0.06,
+   "smooth": 1.0,
+   "name": "band gate",
+   "enabled": true,
+   "wave": "gate",
+   "to_mix": false,
+   "fade": "",
+   "seed_salt": 0
+  },
+  {
+   "freq_hz": 0.7,
+   "amp": 1.0,
+   "offset": -0.5,
+   "phase_x": 0.0,
+   "phase_y": 0.0,
+   "duty": 0.5,
+   "smooth": 1.0,
+   "name": "fade",
+   "enabled": true,
+   "wave": "random",
+   "to_mix": false,
+   "fade": "",
+   "seed_salt": 0
+  },
+  {
+   "freq_hz": 800.0,
+   "amp": 0.5,
+   "offset": 0.0,
+   "phase_x": 0.0,
+   "phase_y": 0.0,
+   "duty": 0.5,
+   "smooth": 0.3,
+   "name": "hue pick",
+   "enabled": true,
+   "wave": "random",
+   "to_mix": false,
+   "fade": "",
+   "seed_salt": 0
+  },
+  {
+   "freq_hz": 3579605.0,
+   "amp": 0.8,
+   "offset": 0.0,
+   "phase_x": 0.0,
+   "phase_y": 0.0,
+   "duty": 0.5,
+   "smooth": 0.0,
+   "name": "tone",
+   "enabled": true,
+   "wave": "sine",
+   "to_mix": true,
+   "fade": "",
+   "seed_salt": 0
+  }
+ ],
+ "cables": [
+  {
+   "src": 0,
+   "dst": 1,
+   "param": "freq_hz",
+   "depth": 1000.0,
+   "mode": "add"
+  },
+  {
+   "src": 1,
+   "dst": 4,
+   "param": "amp",
+   "depth": 1.0,
+   "mode": "scale"
+  },
+  {
+   "src": 2,
+   "dst": 4,
+   "param": "amp",
+   "depth": 1.0,
+   "mode": "mul"
+  },
+  {
+   "src": 3,
+   "dst": 4,
+   "param": "phase_x",
+   "depth": 1.0,
+   "mode": "add"
+  }
+ ]
+}

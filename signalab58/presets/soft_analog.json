@@ -1,0 +1,7 @@
+{
+  "luma_bw_mhz": 3.0,
+  "i_bw_mhz": 1.0,
+  "q_bw_mhz": 0.4,
+  "dec_chroma_bw_mhz": 0.8,
+  "comb_amount": 0.0
+}

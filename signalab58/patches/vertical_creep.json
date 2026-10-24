@@ -1,0 +1,23 @@
+{
+ "fs": 14318181.818,
+ "spl": 910,
+ "seed": 0,
+ "sources": [
+  {
+   "freq_hz": 3579545.0,
+   "amp": 0.2,
+   "offset": 0.0,
+   "phase_x": 0.0,
+   "phase_y": 0.003,
+   "duty": 0.5,
+   "smooth": 0.0,
+   "name": "tone",
+   "enabled": true,
+   "wave": "sine",
+   "to_mix": true,
+   "fade": "",
+   "seed_salt": 0
+  }
+ ],
+ "cables": []
+}
